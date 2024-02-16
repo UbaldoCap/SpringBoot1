@@ -12,5 +12,5 @@ public class HomeController {
     public String ciao(@RequestParam String nome, @RequestParam String provincia) {
         return "Ciao " + nome + ", com'è il tempo in " + provincia + "?";
     }
-    //http://localhost:8080/v1/ciao?nome=Giuseppe&provincia=Lombardia
+    //localhost:8080/v1/ciao?nome=Giuseppe&provincia=Lombardia
 }
